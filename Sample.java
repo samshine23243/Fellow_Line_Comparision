@@ -22,11 +22,28 @@ public class Sample {
 		double length=Math.sqrt((Math.pow(temp1, 2)+ Math.pow(temp2, 2)));
 		return length;
 	}
+	void compare1()
+	{
+		System.out.println("for first length");
+		double length1=calculate_length();
+		System.out.println("for second length ");
+		double length2=calculate_length();
+		if(length1==length2)
+		{
+			System.out.println("lengths are equal...");
+		}
+		else
+		{
+			System.out.println("lengths are not equal");
+		}
+	}
+	
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		System.out.println("welcome to line comparision computation program!!!");
 		Sample obj=new Sample();
+		obj.compare1();
 		//System.out.println(obj.calculate_length());
 	}
 
