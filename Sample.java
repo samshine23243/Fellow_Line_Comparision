@@ -36,6 +36,20 @@ public class Sample {
 		{
 			System.out.println("lengths are not equal");
 		}
+		int temp=Double.compare(length1, length2);
+		if(temp==0)
+		{
+			System.out.println("both lengths are equal");
+		}
+		if(temp==1)
+		{
+			System.out.println("first line greater than second line");
+		}
+		if(temp==-1)
+		{
+			System.out.println("Second line greater than first line");
+		}
+			
 	}
 	
 
