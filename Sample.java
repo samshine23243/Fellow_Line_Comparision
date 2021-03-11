@@ -50,6 +50,11 @@ public class Sample {
 			System.out.println("Second line greater than first line");
 		}
 			
+	
+		String strlength1=Double.toString(length1);
+		String strlength2=Double.toString(length2);
+		System.out.println(strlength1.compareTo(strlength2));
+		System.out.println(strlength1.equals(strlength2));
 	}
 	
 
